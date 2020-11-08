@@ -8,7 +8,7 @@ namespace Esimene
         static void Main(string[] args)
         {
             Console.WriteLine("Ahoi!");
-            //1. Trükkida välja kõik kolmega jagunevad arvud vahemikus 1..100
+            //1. Ülesanne
             Console.WriteLine("Kõik arvud ühest sajani, mis jaguvad kolmega: ");
             for (int i = 1; i < 101; i++)
             {
@@ -18,7 +18,7 @@ namespace Esimene
                 }
             }
 
-            //2.Lase kasutajal sisestada arve kuni tühi string vastuseks tuleb(ehk ENTER ilma midagi kirjutamata).Arvuta nende arvude summa ning min ja max väärtused. Trüki saadud tulemused ekraanile
+            //2. Ülesanne
             Console.WriteLine("\nLeian sinu poolt sisestatud arvude summa ning nende arvude min ja max väärtused. Lõpetamiseks jäta rida tühjaks ja vajuta ENTER.");
             Console.WriteLine("Palun sisesta arv ja vajuta ENTER: ");
             List<int> arvud = new List<int>();
